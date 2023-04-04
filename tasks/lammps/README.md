@@ -24,6 +24,12 @@ Upload the WASM file:
 inv lammps.wasm.upload
 ```
 
+And run:
+
+```bash
+inv lammps.run.granny --data=[compute-xl,network] --repeats=number_of_repeats
+```
+
 ## Native
 
 Deploy the cluster:
@@ -35,7 +41,7 @@ inv lammps.native.deploy
 And run:
 
 ```bash
-inv lammps.run.native
+inv lammps.run.native --data=[compute-xl,network] --repeats=number_of_repeats
 ```
 
 # Plot
